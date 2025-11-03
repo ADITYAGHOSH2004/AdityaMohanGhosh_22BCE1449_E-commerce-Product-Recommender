@@ -3,7 +3,8 @@ import { ShoppingCart, TrendingUp, Star, User, RefreshCw } from 'lucide-react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'https://ecommerce-recommender-api.onrender.com/api';
+const API_URL =  "http://localhost:8080";
+
 
 function App() {
   const [selectedUser, setSelectedUser] = useState('user1');
